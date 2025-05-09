@@ -1,10 +1,10 @@
-import { useState } from 'react'
+
 import hallegua from './assets/hallegua.png'
 import art from './assets/art.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
