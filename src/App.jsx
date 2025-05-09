@@ -14,7 +14,7 @@ function App() {
         <img src={art} alt='Kashi Art Galleries' className='md:w-48 md:h-48 w-36 h-36 rounded-full shadow-lg'/>
         <img src={hallegua} alt='Kashi Hallegua House' className='md:w-48 md:h-48 w-36 h-36 object-contain rounded-full shadow-lg'/>
        
-        <div className='mt-[20%] ml-8 md:ml-0 lg:ml-4 md:mt-[20%] lg:mt-96   lg:absolute lg:top-32 lg:left-[41%]'>
+        <div className='relavtive mt-[20%] ml-8 md:ml-0  md:mt-[15%] lg:top-[31%] xl:top-[37%]  lg:absolute  lg:left-[42%]'>
           <p className='text-center tracking-tight leading-tight text-xs md:text-xl lg:text-lg font-bold md:tracking-widest md:leading-loose  lg:tracking-widest lg:leading-loose md:whitespace-nowrap'>
             WE ARE BUILDING THIS WEBSITE BRICK BY BRICK
           </p>
@@ -25,7 +25,7 @@ function App() {
       </div>
 
       {/* Vertical line */}
-      <div className='absolute bg-black md:left-[70%] lg:left-[42%] left-[85%] w-px h-[50%] top-0 right-0 items-end lg:h-[69%] my-0'></div>
+      <div className='absolute bg-black md:left-[70%] lg:left-[42%] left-[85%] w-px h-[50%] top-0 right-0 items-end lg:h-[65%]   my-0'></div>
 
       {/* Right content */}
       <div className='md:w-1/2 w-full p-6'>
@@ -48,7 +48,7 @@ function App() {
       </div>
 
       {/* Vertical line on the right side */}
-      <div className='absolute bg-black left-[14%] h-[43%] bottom-0 w-px md:h-[40%] lg:h-[26.5%] my-0 lg:left-[74.5%] '></div>
+      <div className='absolute bg-black left-[14%] h-[43%] bottom-0 w-px md:h-[35%] lg:h-[30%] xl:h[30%] my-0 lg:left-[74.5%] '></div>
 
     </div>
     </>
