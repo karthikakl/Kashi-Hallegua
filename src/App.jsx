@@ -14,7 +14,7 @@ function App() {
         <img src={art} alt='Kashi Art Galleries' className='md:w-48 md:h-48 w-36 h-36 rounded-full shadow-lg'/>
         <img src={hallegua} alt='Kashi Hallegua House' className='md:w-48 md:h-48 w-36 h-36 object-contain rounded-full shadow-lg'/>
        
-        <div className='relavtive mt-[20%] ml-8 md:ml-0  md:mt-[15%] lg:top-[31%] xl:top-[37%]  lg:absolute  lg:left-[42%]'>
+        <div className='relavtive mt-[20%] ml-8 md:ml-0  md:mt-[15%] lg:top-[31%] xl:top-[37%] lg:absolute  lg:left-[40%] xl:left-[44%]'>
           <p className='text-center tracking-tight leading-tight text-xs md:text-xl lg:text-lg font-bold md:tracking-widest md:leading-loose  lg:tracking-widest lg:leading-loose md:whitespace-nowrap'>
             WE ARE BUILDING THIS WEBSITE BRICK BY BRICK
           </p>
@@ -33,7 +33,7 @@ function App() {
           <p className='text-right text-xs md:text-sm lg:mt-5 xl:mt-8 lg:text-lg font-bold md:mr-8 lg:mr-10 mr-7 mt-28 mb-16'>
             For enquiries:<br />
             <span className='font-bold text-xs md:text-sm lg:text-lg mt-2'>
-              +91 77363 95049
+              0484 221 5769
             </span>
           </p>
         </div>
@@ -48,7 +48,7 @@ function App() {
       </div>
 
       {/* Vertical line on the right side */}
-      <div className='absolute bg-black left-[14%] h-[43%] bottom-0 w-px md:h-[35%] lg:h-[30%] xl:h[30%] my-0 lg:left-[74.5%] '></div>
+      <div className='absolute bg-black left-[14%] h-[43%] bottom-0 w-px md:h-[35%] lg:h-[30%] xl:h[30%] my-0  xl:left-[75%]'></div>
 
     </div>
     </>
